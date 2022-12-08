@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+    width: 100%;
+    max-width: 900px;
+    min-width: 700px;
+    display: block;
+    margin: auto;
+}
+ h1{
+    font-size: 4rem;
+ }   
+h2,p{
+    font-size: 2.7rem;
+}
+h1,h2,p{
+    color: white;
+font-family: 'Lacquer', cursive;
+text-align: center;
+}
+
+.game{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+}
+
+.ans{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:10rem;
+    font-family: 'Lacquer', cursive;
+    color: white;
+    font-size: 3rem;
+}
+.op{
+    max-width: 100%;
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    font-family: 'Lacquer', cursive;
+    color: white;
+    font-size: 3rem;
+}
+.p{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lacquer', cursive;
+    color: white;
+    font-size: 3rem;  
+    margin-top: 3rem;
+}
+.ps{
+    margin-top: 2rem;
+}
+.r{
+    display: flex;
+    margin:auto;
+    font-size: 3rem;
+    border-color: white;
+    padding: auto;
+    max-width: 22rem;
+    justify-content: center;
+    justify-content: space-between;
+    transition: 2s;
+}
+input[type=button]
+{
+    font-size: 1.2rem;
+    display: block;
+    margin: auto;
+    padding: 12px;
+    font-family: 'Lacquer', cursive;
+    background-color: white;
+    color: rgb(82, 80, 80);
+    border-radius: 1rem;
+}
+.u
+{
+    width: 11rem;
+    height:13rem;
+    border-radius: 20%;
+}
+.u:hover{
+    transform: scale(1.1);
+    z-index: 0.5;
+}
+@media (max-width:750px)
+{
+    h1{
+       font-size:  3rem;
+    }
+    h2,p{
+        font-size: 1.8rem;
+    }
+    .u{
+        width: 7rem;
+        height: 9rem;
+        border-radius: 13%;
+    }
+    .op,.r,.p{
+        font-size: 2rem;
+    }
+    .ans{
+        font-size: 2rem;
+        justify-content:center;
+        gap:6rem;
+    }
+    .op{
+        margin-top: 2rem;
+    }
+    .r{
+        justify-content:center;
+        gap:20px;
+    }
+    .ps{
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+    .p{
+        margin-top: 2rem;
+    }
+}

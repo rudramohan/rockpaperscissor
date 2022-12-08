@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link  rel="stylesheet" href="paper.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <h1>Airtifical vs Human</h1>
+        <h2> Intelligence</h2>
+        <p>
+            select your weapon
+        </p>
+        <div class="game">
+            <div class="s"><input type="image" value="rock" src="../rockpaperscissor/rock.png"  class="u"></div>
+            <div  class="s"> <input type="image" value="paper" src="../rockpaperscissor/paper1.jpg" class="u"></div>
+            <div class="s"><input type="image" value="scissor" src="../rockpaperscissor/scissor.png"  class="u"></div>
+        </div>
+        <div class="r" id="r">
+            <div><p> you</p></div>
+            <div><p> computer</p></div>
+        </div>
+        <div class="ans">
+            <div id="count"></div>
+            <div id="count1" ></div>
+        </div>
+        <div id="temp" class="p"></div>
+        <div id="result" class="op"></div>
+        <div class="ps"> <input type="button" value="TRY AGAIN?" onclick="ref()" id="reload"></div>
+        <script src="scissor.js"></script>
+    </body>
+</html>
